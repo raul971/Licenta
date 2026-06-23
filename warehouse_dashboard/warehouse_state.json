@@ -1,0 +1,29 @@
+{
+  "meta": {
+    "current_order": 3,
+    "delivered_orders": 2
+  },
+  "cabinets": {
+    "Cabinet 1": [
+      [ {"id": "PKG-001", "name": "Cutie A", "weight": 1.2, "destination": "Ruta Nord", "type": "Standard"},
+        null,
+        {"id": "PKG-002", "name": "Cutie B", "weight": 0.8, "destination": "Ruta Sud", "type": "Standard"} ],
+      [ null, {"id": "PKG-003", "name": "Cutie C", "weight": 2.1, "destination": "Ruta Nord", "type": "Fragil"}, null ],
+      [ null, null, null ]
+    ],
+    "Cabinet 2": [
+      [ {"id": "PKG-004", "name": "Cutie D", "weight": 1.5, "destination": "Ruta Est", "type": "Standard"}, null, null ],
+      [ null, null, {"id": "PKG-005", "name": "Cutie E", "weight": 0.6, "destination": "Ruta Sud", "type": "Standard"} ],
+      [ null, null, null ]
+    ]
+  },
+  "trailers": {
+    "Trailer 1x1": { "rows": 1, "cols": 1, "grid": [ [ null ] ] },
+    "Trailer 1x2": { "rows": 1, "cols": 2, "grid": [ [ null, null ] ] },
+    "Trailer 1x3": { "rows": 1, "cols": 3, "grid": [ [ null, null, null ] ] }
+  },
+  "supply_zone": [
+    { "id": "SUP-001", "name": "Servo motor", "weight": 1.4, "destination": "Replenishment", "type": "Mechanical" },
+    { "id": "SUP-002", "name": "Driver TB6612", "weight": 0.3, "destination": "Replenishment", "type": "Electronics" }
+  ]
+}
